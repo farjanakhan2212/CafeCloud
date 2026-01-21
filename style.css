@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+     margin: 0;padding: 0;background-image: url('/CafeCloud/img/bg.jpg');background-size: cover;
+
+}
+
+.container{
+    
+
+}
+
+.header img:hover{
+    border: 3px solid rgb(78, 57, 3);border-radius: 50%;
+}
+/* .header h2{
+    color:rgb(198, 151, 32) ;margin-left: 5px;padding: 0;font-size: 15px;
+} */
+.topbar{
+   display: flex; justify-content:end;align-items: end;
+}
+
+.topbar a{
+    text-decoration: none;color: rgb(185, 137, 14);font-family:cursive;font-size: 25px;padding-left: 30px;margin-left: 50px; font-weight: bold;margin-right: 20px;
+}
+.topbar a:hover{
+    cursor: pointer;color: white;border: 2px solid rgb(78, 57, 3);border-radius: 10px;justify-content: center;padding: 5px;background: rgba(255, 217, 0, 0.179);
+}
+.main h1{
+    color: white;padding-top: 10%;padding-left: 50px;margin-left: 50px;
+}
+.main p{
+    color: white;padding-left: 50px;margin-left: 50px;
+}
+.main button{
+    background:#451e02;padding: 15px;border-radius: 10px;font-size: 15px;margin-left:100px ;margin-top:20px ;font-weight: bold;color: white;
+}
+.main button:hover{
+    cursor: pointer;background:rgba(93, 2, 2, 0.714);border: 2px solid rgba(72, 6, 6, 0.718);font-weight: bold;
+}

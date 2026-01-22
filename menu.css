@@ -5,7 +5,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('/CafeCloud/img/mbg2.jpg');
+    background-image: url('mbg2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,3 +113,4 @@ h1{
         height: 180px;
     }
 }
+

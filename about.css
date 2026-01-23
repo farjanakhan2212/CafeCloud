@@ -6,7 +6,7 @@
 
 body{
     min-height: 100vh;
-    background-image: url('/CafeCloud/img/about.jpg');
+    background-image: url('about.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -114,3 +114,4 @@ body{
         margin: 6px 10px;
     }
 }
+

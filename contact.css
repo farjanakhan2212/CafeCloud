@@ -8,7 +8,7 @@
 body {
     /* background:#3b2316 ; */
     margin: 0;
-    padding: 0;  background-image: url('/CafeCloud/img/con.jpg');
+    padding: 0;  background-image: url('con.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: repeat-y;
@@ -188,3 +188,4 @@ body {
         line-height: 1.4;
     }
 }
+

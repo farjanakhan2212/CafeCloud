@@ -6,7 +6,7 @@ body{
     height: 700px;
     margin: 0;
     padding: 0;
-    background-image: url('bg.jpg');
+    background-image: url('bg1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -148,6 +148,7 @@ body{
         margin-left: 0;
     }
 }
+
 
 
 

@@ -59,7 +59,7 @@ body{
     padding: 60px 30px;
 }
 
-.main h2{
+.main h1{
     color: white;
     font-size: 42px;
 }
@@ -148,6 +148,7 @@ body{
         margin-left: 0;
     }
 }
+
 
 
 

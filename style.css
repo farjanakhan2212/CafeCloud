@@ -3,7 +3,7 @@
 }
 
 body{
-    height: 650px;
+    height: 700px;
     margin: 0;
     padding: 0;
     background-image: url('bg1.jpg');
@@ -148,4 +148,5 @@ body{
         margin-left: 0;
     }
 }
+
 

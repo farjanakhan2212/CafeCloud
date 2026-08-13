@@ -147,7 +147,7 @@ img{
 .menu-section{
     margin-top: 40px;
     padding: clamp(30px, 5vw, 60px) 0;
-    background: url('img/mbg2.jpg') no-repeat center / cover;
+    background: url('mbg2.jpg') no-repeat center / cover;
 }
 
 .mcontainer{
@@ -217,7 +217,7 @@ img{
 .about-section{
     margin-top: 40px;
     padding: clamp(40px, 8vw, 80px) clamp(15px, 4vw, 40px);
-    background: url('img/about.jpg') no-repeat center / cover;
+    background: url('about.jpg') no-repeat center / cover;
 }
 
 .about-content{
@@ -273,7 +273,7 @@ img{
 .contact-section{
     margin-top: 40px;
     padding: clamp(40px, 8vw, 80px) clamp(15px, 4vw, 40px);
-    background: url('img/con.jpg') no-repeat center top / cover;
+    background: url('con.jpg') no-repeat center top / cover;
 }
 
 .cont-heading{

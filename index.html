@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeCloud</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#home"><img src="img/logo.png" alt="coffee"></a>
+
+        <nav class="topbar">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-icon" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ==================== HOME ==================== -->
+    <section id="home" class="main">
+        <h1>Brewed to Perfection at CafeCloud</h1>
+        <p>Coffee is a quiet pause in a busy day, rich in aroma and small moments of clarity.</p>
+        <p>Every cup carries warmth, comfort, and the promise of a fresh start.</p>
+        <a href="#menu"><button>Order Coffee</button></a>
+    </section>
+
+    <!-- ==================== MENU ==================== -->
+    <section id="menu" class="menu-section">
+        <div class="mcontainer">
+            <h1>Coffee Menus</h1>
+
+            <div class="col-group">
+
+                <div class="col">
+                    <img src="img/am2.jpg" alt="coffee">
+                    <h6>Coffee Americano</h6>
+                    <p>Bold espresso with smooth finish</p>
+                    <h5><i class="fa-solid fa-bangladeshi-taka-sign"></i>100</h5>
+                </div>
+
+                <div class="col">
+                    <img src="img/capp.jpg" alt="coffee">
+                    <h6>Coffee Cappuccino</h6>
+                    <p>Rich espresso with creamy foam</p>
+                    <h5><i class="fa-solid fa-bangladeshi-taka-sign"></i>100</h5>
+                </div>
+
+                <div class="col">
+                    <img src="img/mocha.jpg" alt="coffee">
+                    <h6>Coffee Mocha</h6>
+                    <p>Espresso blended with chocolate milk</p>
+                    <h5><i class="fa-solid fa-bangladeshi-taka-sign"></i>100</h5>
+                </div>
+
+                <div class="col">
+                    <img src="img/let.jpg" alt="coffee">
+                    <h6>Coffee Latte</h6>
+                    <p>Smooth espresso with steamed milk</p>
+                    <h5><i class="fa-solid fa-bangladeshi-taka-sign"></i>100</h5>
+                </div>
+
+                <div class="col">
+                    <img src="img/flat.jpg" alt="coffee">
+                    <h6>Coffee Flat White</h6>
+                    <p>Velvety espresso with fine milk</p>
+                    <h5><i class="fa-solid fa-bangladeshi-taka-sign"></i>100</h5>
+                </div>
+
+                <div class="col">
+                    <img src="img/expresso.jpg" alt="coffee">
+                    <h6>Coffee Espresso</h6>
+                    <p>Strong espresso with rich crema</p>
+                    <h5><i class="fa-solid fa-bangladeshi-taka-sign"></i>100</h5>
+                </div>
+
+                <div class="col">
+                    <img src="img/raf.jpg" alt="coffee">
+                    <h6>Coffee Raf</h6>
+                    <p>Creamy espresso with vanilla sweetness</p>
+                    <h5><i class="fa-solid fa-bangladeshi-taka-sign"></i>100</h5>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h3>About CafeCloud</h3>
+            <p>
+                CafeCloud is a cozy digital café where coffee culture meets creativity.
+                We believe great coffee brings people together, sparks ideas, and creates moments worth remembering.
+            </p>
+
+            <p>
+                Designed for those who enjoy slowing down and savoring every sip,
+                CafeCloud is a place to work, relax, or spend time with friends.
+            </p>
+
+            <h3>Our Story</h3>
+            <p>
+                CafeCloud started with a simple idea: serve quality coffee in a warm and friendly environment.
+                Inspired by modern café culture and local flavors, we focus on consistency, comfort, and care.
+            </p>
+
+            <h3>Why CafeCloud</h3>
+            <ul class="why-list">
+                <li>Premium quality coffee beans</li>
+                <li>Skilled and passionate baristas</li>
+                <li>Calm and comfortable atmosphere</li>
+                <li>Friendly service and community vibe</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact" class="contact-section">
+        <div class="cont-heading">
+            <span>Contact us</span>
+            <h2>Get in Touch with CafeCloud</h2>
+            <p>Have questions or feedback? Our team is here to help you enjoy the perfect coffee experience. Reach
+                out today!</p>
+        </div>
+
+        <div class="contact-wrap">
+            <form action="" class="contact-form">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Your Email">
+                </div>
+                <input type="text" name="sub" placeholder="Subject" class="full">
+                <textarea name="mess" placeholder="Message"></textarea>
+                <button type="submit" value="Send Message" class="btn">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <div class="dbox">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <p><span>Address:</span> 188/1, North Ibrahimpur, kafrul Dhaka- 1206</p>
+                    </div>
+                </div>
+
+                <div class="dbox">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <p><span>Phone:</span> <a href="tel://01974457055">+8801974457055</a></p>
+                    </div>
+                </div>
+
+                <div class="dbox">
+                    <div class="icon"><i class="fa-solid fa-location-arrow"></i></div>
+                    <div class="text">
+                        <p><span>Email:</span> <a href="mailto:farjanakhan.2212@gmail.com">farjanakhan.2212@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="dbox">
+                    <div class="icon"><i class="fa-solid fa-globe"></i></div>
+                    <div class="text">
+                        <p><span>Website:</span> <a href="#">farjana.intelsofts.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

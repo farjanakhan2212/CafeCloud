@@ -100,7 +100,7 @@ img{
 ========================= */
 .main{
     padding: clamp(30px, 8vh, 80px) clamp(15px, 5vw, 40px);
-    background: url('img/bg1.jpg') no-repeat center top / cover;
+    background: url('/bg1.jpg') no-repeat center top / cover;
     min-height: 75vh;
     display: flex;
     flex-direction: column;
